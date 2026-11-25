@@ -1,0 +1,16 @@
+/*
+Nombre: Kevin Castillo 
+Fecha: 25-11-2026
+*/
+
+public class Ejercicio02 {
+    static int pot(int b, int e){
+        if (e == 0)
+            return 1; 
+        return b * pot(b, e -1);
+        
+    }
+
+    
+    
+}
